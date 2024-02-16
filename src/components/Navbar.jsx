@@ -59,11 +59,11 @@ const Navbar = () => {
                         <ul className="navbar-nav m-auto my-2 text-center">
                             <li className="nav-item">
                                 <img src='https://rukminim2.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100' style={{width:"45%"}}/>
-                                <NavLink className="nav-link " style={{fontWeight:600}}  to="/">Grocery</NavLink>
+                                <NavLink className="nav-link " style={{fontWeight:600}}  >Grocery</NavLink>
                             </li>
                             <li className="nav-item">
                                 <img src='https://rukminim2.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100' style={{width:"45%"}}/>
-                                <NavLink className="nav-link " style={{fontWeight:600}}  to="/">Mobile</NavLink>
+                                <NavLink className="nav-link " style={{fontWeight:600}}  >Mobile</NavLink>
                             </li>
                             <li className="nav-item dropdown" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
                             <img src='https://rukminim2.flixcart.com/fk-p-flap/128/128/image/0d75b34f7d8fbcb3.png?q=100'style={{width:"45%"}}/>
@@ -87,18 +87,18 @@ const Navbar = () => {
                              <li className="nav-item">
                                <img src='https://rukminim2.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100' style={{width:"45%"}}/>
 
-                                <NavLink className="nav-link" style={{fontWeight:600}}  to="/">Electronics</NavLink>
+                                <NavLink className="nav-link" style={{fontWeight:600}}  >Electronics</NavLink>
                             </li>
                                
                                 <li className="nav-item">
                                 <img src='https://rukminim2.flixcart.com/fk-p-flap/128/128/image/0139228b2f7eb413.jpg?q=100' style={{width:"45%"}}/>
 
-                                    <NavLink className="nav-link" style={{fontWeight:600}} to="/">Appliances</NavLink>
+                                    <NavLink className="nav-link" style={{fontWeight:600}} >Appliances</NavLink>
                                 </li>
                                 <li className="nav-item">
                                 <img src='https://rukminim2.flixcart.com/flap/128/128/image/71050627a56b4693.png?q=100' style={{width:"45%"}}/>
 
-                                    <NavLink className="nav-link" style={{fontWeight:600}}  to="/">Travel</NavLink>
+                                    <NavLink className="nav-link" style={{fontWeight:600}}  >Travel</NavLink>
                                 </li>
                             <li className="nav-item dropdown" onMouseEnter={toggleDropdown2} onMouseLeave={toggleDropdown2}>
                                 <img src='https://rukminim2.flixcart.com/flap/128/128/image/dff3f7adcf3a90c6.png?q=100' style={{width:"45%"}}/>
@@ -120,7 +120,7 @@ const Navbar = () => {
                             
                             <li className="nav-item">
                                 <img src='https://rukminim2.flixcart.com/fk-p-flap/128/128/image/05d708653beff580.png?q=100' style={{width:"45%"}}/>
-                                <NavLink className="nav-link" style={{fontWeight:600}} to="/">Two Wheelers</NavLink>
+                                <NavLink className="nav-link" style={{fontWeight:600}} >Two Wheelers</NavLink>
                             </li>
                            
                         </ul>
