@@ -15,7 +15,7 @@ function Login() {
     async function handleSubmit(e){
     e.preventDefault();
 
-    await axios.post('http://localhost:3001/login',{email,password}).then(result=>{console.log(result)
+    await axios.post('https://ecommerce-backend-cacr.onrender.com/login',{email,password}).then(result=>{console.log(result)
     if(result.data==="Success"){
         navigate('/home')
     }
