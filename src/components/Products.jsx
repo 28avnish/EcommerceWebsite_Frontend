@@ -83,10 +83,9 @@ const Products = () => {
   const ShowProducts = () => {
     return (
       <>
-        <div className="buttons text-center py-5">
+        <div className="buttons text-center my-3">
           <button className="btn btn-outline-dark btn-sm m-2" onClick={() => setFilter(data)}>All</button>
-          <button className="btn btn-outline-dark btn-sm m-2" onClick={() => sortProducts("asc")}>Low to High</button>
-          <button className="btn btn-outline-dark btn-sm m-2" onClick={() => sortProducts("desc")}>High to Low</button>
+         
           <button className="btn btn-outline-dark btn-sm m-2" onClick={() => filterProduct("men's clothing")}>Men's Clothing</button>
           <button className="btn btn-outline-dark btn-sm m-2" onClick={() => filterProduct("women's clothing")}>
             Women's Clothing
@@ -94,6 +93,12 @@ const Products = () => {
           <button className="btn btn-outline-dark btn-sm m-2" onClick={() => filterProduct("jewelery")}>Jewelery</button>
           <button className="btn btn-outline-dark btn-sm m-2" onClick={() => filterProduct("electronics")}>Electronics</button>
         </div>
+        <div className="buttons d-flex justify-content-center align-items-center mb-4">
+  <p className="m-0 me-2">Sort by:</p>
+  <button className="btn btn-outline-dark btn-sm m-2" onClick={() => sortProducts("asc")}>Low to High</button>
+  <button className="btn btn-outline-dark btn-sm m-2" onClick={() => sortProducts("desc")}>High to Low</button>
+</div>
+
 
         {filter.map((product) => {
           return (
@@ -136,11 +141,11 @@ const Products = () => {
   };
   return (
     <>
-      <div className="container my-3 py-3">
+      <div className="container my-4 py-3">
         <div className="row">
           <div className="col-12">
             <h2 className="display-5 text-center">Latest Products</h2>
-            <hr />
+           
           </div>
         </div>
         <div className="row justify-content-center">
