@@ -36,7 +36,7 @@ function Signup() {
     }
 
     // If all fields pass validation, submit the form
-    axios.post('http://localhost:3001/register', { firstname, lastname, email, password })
+    axios.post('https://ecommerce-backend-cacr.onrender.com/register', { firstname, lastname, email, password })
     .then(result => {
       console.log(result);
       // Check if registration was successful
